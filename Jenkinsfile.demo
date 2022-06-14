@@ -9,7 +9,7 @@ pipeline {
                 echo 'Hello, world'
                 sayHello 'Javi'
 
-                echo 'The value of foo is : ' + GlobalVars.foo
+                //echo 'The value of foo is : ' + GlobalVars.foo
 
                 script {
                     def person = new SampleClass()
